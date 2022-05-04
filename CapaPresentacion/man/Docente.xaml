@@ -1,0 +1,118 @@
+﻿<Window x:Class="CapaPresentacion.man.Docente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CapaPresentacion.man"
+        mc:Ignorable="d"
+        Title="Docente" Height="450" Width="800">
+    <Grid Background="Black">
+        <Menu HorizontalAlignment="Left" Height="64.686" VerticalAlignment="Top" Width="754.668" Background="#FF086AAE" Margin="27.332,10,0,0">
+            <Image Source="/CapaPresentacion;component/Image9.png" Stretch="Fill" Height="49.485" Width="240.794"/>
+        </Menu>
+        <TextBlock HorizontalAlignment="Left" Margin="317.86,25.464,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Foreground="White" FontWeight="Bold" FontFamily="Arial Rounded MT Bold"><Run Text="MANTENIMIENTO"/><Run Text=" DE "/><Run Text="DOCENTE"/></TextBlock>
+        <Image Margin="23.431,119.058,568.94,75.054" Source="/CapaPresentacion;component/Image13.png" Stretch="Fill"/>
+        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="23" Margin="229.071,128.381,0,0" TextWrapping="Wrap" Text="CODIGO" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" SelectionBrush="Black">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtDomicilio" HorizontalAlignment="Left" Height="23" Margin="230.081,219.187,0,0" TextWrapping="Wrap" Text="DOMICILIO" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" SelectionBrush="White">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="1.997"/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform X="-0.401" Y="-0.003"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="23" Margin="396.562,130.399,0,0" TextWrapping="Wrap" Text="CORREO" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.577,3.023" SelectionBrush="Black">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform X="-0.465" Y="0.088"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtNombres" HorizontalAlignment="Left" Height="23" Margin="396.562,177.821,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" SelectionBrush="White" Text="NOMBRES">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtEstudios" HorizontalAlignment="Left" Height="23" Margin="228.064,309.997,0,0" TextWrapping="Wrap" Text="ESTUDIOS" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" SelectionBrush="White">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtAfp" HorizontalAlignment="Left" Height="23" Margin="396.561,269.638,0,0" TextWrapping="Wrap" Text="AFP" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" SelectionBrush="White">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.333"/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform X="0.067" Y="0.001"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtProfesion" HorizontalAlignment="Left" Height="23" Margin="396.561,308.988,0,0" TextWrapping="Wrap" Text="PROFESION" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.532,0.656" SelectionBrush="White">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform X="-0.029" Y="0.037"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtLugarNac" HorizontalAlignment="Left" Height="23" Margin="396.561,225.244,0,0" TextWrapping="Wrap" Text="LUGAR NACIMIENTO" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.518,0.745" SelectionBrush="White">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform X="-0.045" Y="0.021"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="229.072,174.795,0,0" TextWrapping="Wrap" Text="APELLIDOS" VerticalAlignment="Top" Width="144.215" Background="White" Grid.IsSharedSizeScope="True" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" SelectionBrush="White">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.458"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <DatePicker HorizontalAlignment="Left" Margin="228.06,270.641,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Foreground="Black"/>
+        <Button x:Name="bttnExistir" Content="EXISTIR" HorizontalAlignment="Left" Margin="693.197,186.681,0,0" VerticalAlignment="Top" Width="75" Click="bttnExistir_Click"/>
+        <Button x:Name="btnAsistir" Content="ASISTIR" HorizontalAlignment="Left" Margin="609.857,186.681,0,0" VerticalAlignment="Top" Width="75" Click="btnAsistir_Click"/>
+        <Button x:Name="btnAgregar" Content="AGREGAR" HorizontalAlignment="Left" Margin="693.197,304.602,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnListar" Content="LISTAR" HorizontalAlignment="Left" Margin="609.857,304.602,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnEliminar" Content="ELIMINAR" HorizontalAlignment="Left" Margin="609.857,262.674,0,0" VerticalAlignment="Top" Width="75" Height="20.969"/>
+        <Button x:Name="btnEstudiar" Content="ESTUDIAR" HorizontalAlignment="Left" Margin="693.197,263.683,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnBuscar" Content="BUSCAR" HorizontalAlignment="Left" Margin="693.197,223.484,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnActualizar" Content="ACTUALIZAR" HorizontalAlignment="Left" Margin="609.857,223.484,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnEscribir" Content="ESCRIBIR" HorizontalAlignment="Left" Margin="610,146,0,0" VerticalAlignment="Top" Width="75" Click="btnEscribir_Click"/>
+        <Button x:Name="btnLeer" Content="LEER" HorizontalAlignment="Left" Margin="693,146,0,0" VerticalAlignment="Top" Width="75" Click="btnLeer_Click"/>
+
+    </Grid>
+</Window>
